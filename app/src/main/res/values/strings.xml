@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UV-Aqp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_fragment__consejo3">fragment_Consejo3</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDivider"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="CONSEJO N°1"
+        android:textColor="@color/colorIcons"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="119dp"
+        android:ems="10"
+        android:gravity="center|start"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="La Ley 30102, promulgada en noviembre del 2013, estipula obligaciones para las entidades públicas y privadas. Por ejemplo, dispone que las actividades de cualquier índole se realicen en ambientes protegidos, preferentemente entre las 8:00 y las 10:00 a.m. o a partir de las 4:00 p.m. "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSgte"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="12dp"
+
+        android:background="@android:drawable/ic_media_ff"
+        android:gravity="right|center_horizontal|clip_horizontal"
+        android:onClick="btnsiguiente_onclick" />
+</LinearLayout>
