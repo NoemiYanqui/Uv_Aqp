@@ -7,9 +7,9 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="168dp"
+        android:id="@+id/fotPerfil"
+        android:layout_width="396dp"
+        android:layout_height="191dp"
         app:srcCompat="@mipmap/ic_perfilf" />
 
     <TextView
