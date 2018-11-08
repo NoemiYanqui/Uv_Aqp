@@ -25,6 +25,13 @@
     <ListView
         android:id="@+id/lista"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingLeft="10dp" />
+        android:layout_height="63dp"
+        android:paddingLeft="10dp">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/lista2"
+        android:layout_width="match_parent"
+        android:layout_height="59dp" />
 </LinearLayout>
